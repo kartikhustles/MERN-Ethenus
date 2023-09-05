@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      #img {
+        margin-left: 33%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      Form {
+        margin: auto;
+        width: 40%;
+        height: 70vh;
+
+        margin-top: 20vh;
+      }
+
+      img {
+        width: 30%;
+        margin-left: 28vh;
+        margin-right: 20vh;
+      }
+      .user {
+        margin-left: 15%;
+      }
+      #username {
+        width: 60%;
+        margin-left: 15%;
+        height: 20px;
+      }
+      .password {
+        margin-left: 15%;
+      }
+      #password {
+        margin-left: 15%;
+        width: 60%;
+        height: 20px;
+      }
+      .login {
+        width: 62%;
+        background-color: rgb(70, 179, 70);
+        margin-left: 15%;
+        color: white;
+        outline: none;
+        height: 30px;
+      }
+      .cancel {
+        margin-left: 15%;
+        background-color: red;
+        color: white;
+        outline: none;
+        padding: 6px;
+        border-radius: 5px;
+      }
+      .remember {
+        margin-left: 15%;
+      }
+      a {
+        margin-left: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <img id="img" src="avatar-man.png" /><br /><br />
+
+      <label for="Username" class="user"><b>Username</b></label>
+      <input
+        type="text"
+        name="Username"
+        id="username"
+        placeholder="Enter username"
+      /><br /><br />
+
+      <label for="Password" class="password"><b>Password</b></label
+      ><br />
+      <input
+        type="text"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+      /><br /><br />
+
+      <button type="login" class="login">Login</button><br /><br />
+      <input type="checkbox" name="Rememeber" checked class="remember" />
+      <label for="Remember">Remember me</label><br /><br />
+
+      <button type="cancel" class="cancel">Cancel</button>
+      <a href="/forgotPassword">Forgot Password?</a>
+    </form>
+  </body>
+</html>

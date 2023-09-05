@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task4</title>
+  </head>
+  <style>
+    .container {
+      margin: auto;
+      width: 35%;
+      margin-top: 15%;
+      border: 1px solid black;
+      height: 40vh;
+    }
+    .left-con {
+      float: left;
+      width: 12%;
+      display: flex;
+      flex-direction: column;
+    }
+    #btn {
+      height: 4vh;
+      width: 7vh;
+      border: none;
+      margin-bottom: 4px;
+      margin-top: 3px;
+      border-radius: 0px 10px 10px 0px;
+    }
+    .green {
+      background-color: rgb(6, 126, 44);
+    }
+    .blue {
+      background-color: rgba(14, 0, 205, 0.742);
+    }
+    .red {
+      background-color: rgb(252, 34, 10);
+    }
+    .grey {
+      background-color: rgb(75, 72, 72);
+    }
+    .green:hover {
+      background-color: rgb(155, 211, 176);
+      cursor: pointer;
+    }
+    .blue:hover {
+      background-color: rgba(113, 109, 164, 0.742);
+      cursor: pointer;
+    }
+    .red:hover {
+      background-color: rgb(212, 120, 110);
+      cursor: pointer;
+    }
+    .grey:hover {
+      cursor: pointer;
+      background-color: rgb(207, 204, 204);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="left-con">
+        <button class="green" id="btn"></button>
+        <button class="blue" id="btn"></button>
+        <button class="red" id="btn"></button>
+        <button class="grey" id="btn"></button>
+      </div>
+      <div style="margin: 10px">
+        <h2>Hoverable side nav buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them</p>
+      </div>
+    </div>
+  </body>
+</html>

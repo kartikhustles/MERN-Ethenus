@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .Container {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10%;
+    }
+    .verUl {
+      list-style-type: none;
+      width: 25vw;
+      height: 350px;
+      border: 2px solid black;
+    }
+    .verLi {
+      background-color: #add8e6;
+      width: 90%;
+      height: 50px;
+      font-size: 30px;
+      color: blue;
+    }
+    .verLi:hover {
+      cursor: pointer;
+      background-color: #fcae1e;
+      color: white;
+    }
+
+    .hoUl {
+      border: 2px solid black;
+      list-style-type: none;
+      padding: 20px 20px 20px 20px;
+      display: flex;
+      width: 50vw;
+      height: 20%;
+    }
+
+    .horLi:hover {
+      cursor: pointer;
+      background-color: #404040;
+    }
+
+    .horLi {
+      background-color: #d3d3d3;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      color: blue;
+      border: 2px solid rgb(0, 72, 255);
+    }
+  </style>
+  <body>
+    <div class="Container">
+      <div>
+        <h3>Vertical Navigation Bar</h3>
+        <ul class="verUl">
+          <br /><br />
+          <li class="verLi">Home</li>
+          <li class="verLi">Java</li>
+          <li class="verLi">CSS</li>
+          <li class="verLi">HTML</li>
+          <li class="verLi">Bootstrap</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Horizontal Navigation Bar</h3>
+        <ul class="hoUl">
+          <li class="horLi">Home</li>
+          <li class="horLi">Java</li>
+          <li class="horLi">HTML</li>
+          <li class="horLi">CSS</li>
+          <li class="horLi"></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
