@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Task-2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        .bg-custom {
+            background-color: rgb(255, 208, 0);
+            padding-top: 20px;
+        }
+
+        html, body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .txt-head {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: smaller;
+            padding-left: 15px;
+            margin: 0 0 5px 0;
+        }
+
+        .hdr {
+            padding-bottom: 20px;
+        }
+
+        .img-cust {
+            width: 68.7%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .carousel-caption {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-custom">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <div class="logo">
+                    <a href = "#" class = "text-decoration-none text-reset"><h1 style = "font-weight: 700;">Builderz</h1></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row hdr">
+                    <div class="col-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-calendar-days fa-3x"></i>
+                            </div>
+                            <div class="txt-head align-items-center justify-content-center" style="height: 10vh;">
+                                <h3>Opening Hour</h3>
+                                <p>Mon-Fri 8:00-9:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <div class="txt-head align-items-center justify-content-center" style="height: 10vh;">
+                                <h3>Call Us</h3>
+                                <p>+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-sharp fa-solid fa-envelopes-bulk fa-3x"></i>
+                            </div>
+                            <div class="txt-head align-items-center justify-content-center" style="height: 10vh;">
+                                <h3>Email Us</h3>
+                                <p>info@builderz.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-dark text-white px-2 py-1">
+            <div class="d-flex row my-3 px-2 width-2">
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">HOME</a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">ABOUT</a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">SERVICE</a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">TEAM</a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">PROJECT</a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">
+                    PAGES
+                </a></div>
+                <div class="col-1 d-flex justify-content-center align-items-center "><a class = "text-decoration-none text-reset" href= "#">CONTACT</a></div>
+                <div class="col-5 d-flex justify-content-end align-items-center "><button type="button" class=" btn btn-outline-light rounded-0" style="vertical-align: middle;">Get A Quote</button></div>
+            </div>
+        </div> 
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./photo.jpg" class="d-block w-100" alt="Workers" style="filter: brightness(40%);">
+                <div class="carousel-caption">
+                    <h5>We Are Professional</h5>
+                    <strong><h1>For Your Dream Project</h1></strong>
+                    <button type="button" class=" btn btn-outline-light rounded-0" style="vertical-align: middle;">Get A Quote</button>
+                </div>            
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-dark text-white d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mx-auto">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-helmet-safety fa-3x me-4"></i>
+                                <div>
+                                    <h2 >Expert Worker</h2>
+                                    <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 bg-custom text-dark d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mx-auto">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-building fa-3x me-4"></i>
+                                <div>
+                                    <h2>Quality Work</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 bg-dark text-white d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mx-auto">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-headset fa-3x me-4"></i>
+                                <div>
+                                    <h2>24/7 Support</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper mauris et malesuada ultrices.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-TASK-2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" type="text/css">
+</head>
+<body style="background-color: rgb(200, 199, 199);">
+    <div class="container-lg bg-warning">
+        <div class="row justify-content-center">
+            <div class="col-4 p-0">
+                <h1 class="fw-bold display-5 text-start">Builderz</h1>
+            </div>
+            <div class="col-7 text-center ps-5 d-none d-lg-block">
+                <div class="row justify-content-center">
+                    <div class="col-4 ps-2">
+                        <table>
+                            <tr>
+                                <td><img src="./calendar.png" alt="calendar" style="width:75%"></td>
+                                <td class="text-start">
+                                    <span style="font-size: 14px;">Opening Hour</span><br>
+                                    <span style="font-size: 13px;">Mon-Fri, 8:00-9:00</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4 ps-5">
+                        <table>
+                            <tr>
+                                <td><img src="./call.png" alt="calendar" style="width:75%"></td>
+                                <td class="text-start">
+                                    <span style="font-size: 14px;">Call Us</span><br>
+                                    <span style="font-size: 12px;">+012 345 6789</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4 ps-5">
+                        <table>
+                            <tr>
+                                <td><img src="./email.png" alt="calendar" style="width:75%"></td>
+                                <td class="text-start">
+                                    <span style="font-size: 14px;">Email Us</span><br>
+                                    <span style="font-size: 12px;">info@example.com</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="topp col-11 justify-content-center bg-primary p-0">
+                <nav class="navbar p-3" style="background-color: rgb(7, 7, 60); font-size: 15px;">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">HOME</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">ABOUT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light">SERVICE</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">TEAM</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">PROJECT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">PAGES</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light ">CONTACT</a></li>
+                    </ul>
+                    <ul class="nav navbar-right">
+                        <li class="nav-item"><a href="#" class="nav-link link-light btn btn-outline-light border border-3">Get A Qoute</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-lg" style="background-image: url(./photo.jpg); width:100%; height:600px;opacity: 0.8; filter: alpha(opacity=40);">
+        <main class="text-center text-light">
+            <p style="padding-top: 180px; font-weight: 500; font-size:29px;">We Are Professional</p>
+            <p style="font-weight: 900; font-size: 50px"><span style="font-size: 35px; position:relative; left:-295px; top:30px;"><</span> Your Dream Project <span style="font-size:35px; position:relative; right:-295px; top:30px;">></span></p>
+            <div>
+                <a href="#" class="btn btn-outline-light border border-3 px-4 py-3 fw-bold">GET A QUOTE</a>
+            </div>
+            <div style="position: relative; top:125px; font-size: 50px;">
+                _ _ _
+            </div>
+        </main>
+    </div>
+    <div class="container-lg">
+        <footer class="row">
+            <div class="col-4 text-warning px-5 pt-5" style="background-color: rgb(6, 6, 37);">
+                <div><img src="./expert_worker.png" alt="image1" style="float:left; width:25%;"></div>
+                <h5>Expert Worker</h5>
+                <p>Lorem ipsum dolar sir amet elit.Phasus nec pretim ornare velit non</p>
+            </div>
+            <div class="col-4 text-dark bg-warning px-5 pt-5">
+                <div><img src="./quality_work.png" alt="image2" style="float:left; width:25%;"></div>
+                <h5 class="fw-bold">Quality Work</h5>
+                <p>Lorem ipsum dolar sir amet elit.Phasus nec pretim ornare velit non</p>
+            </div>
+            <div class="col-4 text-warning px-5 pt-5" style="background-color: rgb(6,6,37);">
+                <div><img src="./support.png" alt="image3" style="float:left; width:25%;"></div>
+                <h5>24/7 Support</h5>
+                <p>Lorem ipsum dolar sir amet elit.Phasus nec pretim ornare velit non</p>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html> -->
